@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
     name_hash.sort_by do |item, num|
-    lowest = item.first
+    lowest = num.first
     end
   lowest
 end
