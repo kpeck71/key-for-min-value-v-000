@@ -6,6 +6,7 @@ def key_for_min_value(name_hash)
         num, num + 1 = num + 1, num
       end
     else
+      num
     end
     item.first
   end
