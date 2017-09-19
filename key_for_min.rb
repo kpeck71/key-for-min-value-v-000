@@ -1,3 +1,3 @@
 def key_for_min_value(name_hash)
-  items = name_hash.each_key.collect {|item| item}.first
+  items = name_hash.each_key.collect {|item| item}.last
 end
