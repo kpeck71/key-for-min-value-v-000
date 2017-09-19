@@ -5,6 +5,6 @@ def key_for_min_value(name_hash)
         value, value + 1 = value + 1, value
       end
     #end
-  item.first
+  key.first
   end
 end
