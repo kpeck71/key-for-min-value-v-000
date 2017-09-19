@@ -3,7 +3,7 @@ def key_for_min_value(name_hash)
   name_hash.collect do |key, value|
       if value > value + 1
         value, value + 1 = value + 1, value
-      end
+
       end
     #end
   key.first
