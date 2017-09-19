@@ -8,6 +8,7 @@ def key_for_min_value(name_hash)
         swapped = true
       end
     end
+    break if not swapped
   item.first
   end
 end
