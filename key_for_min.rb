@@ -1,8 +1,4 @@
-# prereqs: iterators, hashes, conditional logic
-# Given a hash with numeric values, return the key for the smallest value
-
 def key_for_min_value(name_hash)
-  name_hash.collect do |item, num|
-    lowest = name_hash.sort_by {|item, num| item }.first
-  end
+  items = name_hash.collect {|item, num| item}
+  items.sort_by.first
 end
