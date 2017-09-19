@@ -10,5 +10,4 @@ def key_for_min_value(name_hash)
     end
     break if not swapped
   end
-  item.first
 end
