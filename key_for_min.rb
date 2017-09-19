@@ -6,5 +6,6 @@ def key_for_min_value(name_hash)
     #if name_hash[num] > name_hash[num+1]
     #   name_hash[num], name_hash[num+1] = name_hash[num+1], name_hash[num]
     end
+    item.first
   end
 end
